@@ -284,10 +284,12 @@ $\bvec{p} \eq \bvec{p} - \epsilon  \nabla U(\bvec{q}) / 2$
 
 \vspace{2mm}
 
-\# \emph{Full-step evolution of position}:\\
+\hspace*{\fill}\# \emph{Full-step evolution of position}:\\
+\vspace{-4mm}
 \If {\textsc{BaselineHMC}}{$\bvec{q} \eq \bvec{q} + \epsilon \bvec{p}$}
 \Else {
-\# (i.e.\ if \textsc{ReflectiveHMC}):\\
+\vspace{-4mm}
+\hspace*{\fill}\# i.e.\ if \textsc{ReflectiveHMC}:\\
 $t_0 \eq 0$
 \nllabel{a:position evolve begin} %......................................
 \\
@@ -305,7 +307,7 @@ $t_0 \eq t_0 + t_x$\\
 
 $\tuple{\bvec{p}_\perp, \bvec{p}_\parallel} = $ {\sc decompose}%\footnotemark 
 $(\bvec{p}, \phi)$
-\hspace*{\fill} \# \emph{\footnotesize perpendicular/ parallel to boundary plane $\phi$}
+\hspace*{\fill} \# \emph{\footnotesize Perpendicular/ parallel to boundary plane $\phi$}
 \\
 
 \If { $\Vert\bvec{p}_\perp\Vert^2 > 2\Delta U$}
@@ -313,10 +315,10 @@ $(\bvec{p}, \phi)$
 
 $\bvec{p}_\perp \eq \sqrt{\Vert\bvec{p}_\perp\Vert^2 - 2 \Delta U} \cdot \frac{\bvec{p}_\perp}
 {\Vert\bvec{p}_\perp\Vert}$
-\hspace*{\fill} \# \emph{refraction}
+\hspace*{\fill} \# \emph{Refraction}
 }\Else{
 $\bvec{p}_\perp \eq -\bvec{p}_\perp$
-\hspace*{\fill} \# \emph{reflection}
+\hspace*{\fill} \# \emph{Reflection}
 } %end else
 
 $\bvec{p} \eq \bvec{p}_\perp + \bvec{p}_\parallel$\\
@@ -332,7 +334,7 @@ $\bvec{p} \eq \bvec{p} - \epsilon  \nabla U(\bvec{q}) / 2$
 \hspace*{\fill} \# \emph{Half-step evolution of momentum}
 
 }%for
-$\bvec{p} \eq - \bvec{p}$\hspace*{\fill} \# \emph{not required in practice; for proof of reversibility}\\
+$\bvec{p} \eq - \bvec{p}$\hspace*{\fill} \# \emph{Not required in practice; for reversibility proof}\\
 $H \eq \Vert\bvec{p}\Vert^2/2 + U(\bvec{q})$; \quad  
 $\Delta H \eq H - H_0$\\
 
