@@ -826,11 +826,11 @@ The comparison takes place on a heavy tail piecewise model with (non-normalized)
 \[
 U(\bvec{q}) =
 \begin{cases}
-\case{|q_i| \leq 3 \quad \hspace{18pt}\text{ for } i=1, \ldots, n }{\sqrt{\bvec{q}^\top A \; \bvec{q}}}\\
-\case{3<|q_i| \leq 6 \quad \text{ for } i=1, \ldots, n }{1 + \sqrt{\bvec{q}^\top A \; \bvec{q}}}\\
+\case{\Vert \bvec{q} \Vert_\infty \leq 3}{\sqrt{\bvec{q}^\top A \; \bvec{q}}}\\
+\case{3 < \Vert \bvec{q} \Vert_\infty \leq 6 }{1 + \sqrt{\bvec{q}^\top A \; \bvec{q}}}\\
 \otherwise{+ \infty,}
 \end{cases}
-\]
+\] 
 where $A$ is a positive definite matrix.  We carry out the experiment on three choices of (position space) dimensionalites,  $n = 2, 10$ and $50$.
 
 
@@ -839,7 +839,8 @@ Therefore, the absolute error of the expected value (estimated by a chain $\bvec
 the absolute value of the mean of $d$-th element of the sample vectors.
 The worst mean absolute error (WMAE) over all dimensions is taken as the error measurement of the chain.
 \[
-\textsc{WMAE} \left( \bvec{q}^{(1)}, \ldots, \bvec{q}^{(k)} \right) = \max_{d=1, \ldots n} 
+\textsc{WMAE} \left( \bvec{q}^{(1)}, \ldots, \bvec{q}^{(k)} \right) = \frac{1}{k}
+\max_{d=1, \ldots n} 
 \left|\sum_{s=1}^k {q_d}^{s} \right|
 \]
 For each algorithm, 20 Markov chains are run and the mean WMAE and 99\% confidence intervals (as error bars) versus the number of iterations (i.e. Markov chain sizes) are time (milliseconds) are depicted in 
