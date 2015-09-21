@@ -66,6 +66,10 @@
 \newcommand{\dd}{\;\mathrm{d}} % d for integration variables e.g. dx
 
 
+% to allow skipping line numbers
+\let\oldnl\nl% Store \nl in \oldnl
+\newcommand{\nonl}{\renewcommand{\nl}{\let\nl\oldnl}}% Remove line number for one line
+
 \usepackage{booktabs}
 \usepackage{enumitem}
 \usepackage{graphicx} 
@@ -256,16 +260,17 @@ of the determinant of the Jacobian, as explored in the following section.
 \dontprintsemicolon
 
 \Input{
-$\bvec{q}_0$, current sample; $U$, potential function,\\
+$\bvec{q}_0$, current sample; $U$, potential function,
 %$\Phi = \{\phi_i\}_i$, set of boundary constraints of the current partition 
 %(that contains $U(\bvec{q}_0)$);\\
-$L$, number of leapfrog steps; $\epsilon$, leapfrog step size
+$L$, \# leapfrog steps; $\epsilon$, leapfrog step size
 }
 \Output{next sample}
 \BlankLine
 {
 \Begin{
 
+%:
 $\bvec{q} \eq \bvec{q}_0$; \quad 
 $\bvec{p} \sim \mathcal{N}(0,1)$\\
 
@@ -284,12 +289,12 @@ $\bvec{p} \eq \bvec{p} - \epsilon  \nabla U(\bvec{q}) / 2$
 
 \vspace{2mm}
 
-\hspace*{\fill}\# \emph{Full-step evolution of position}:\\
+\nonl \hspace*{\fill}\# \emph{Full-step evolution of position}:\\
 \vspace{-4mm}
 \If {\textsc{BaselineHMC}}{$\bvec{q} \eq \bvec{q} + \epsilon \bvec{p}$}
 \Else {
 \vspace{-4mm}
-\hspace*{\fill}\# i.e.\ if \textsc{ReflectiveHMC}:\\
+\nonl \hspace*{\fill}\# i.e.\ if \textsc{ReflectiveHMC}:\\
 $t_0 \eq 0$
 \nllabel{a:position evolve begin} %......................................
 \\
@@ -327,9 +332,7 @@ $\bvec{p} \eq \bvec{p}_\perp + \bvec{p}_\parallel$\\
 $\bvec{q} \eq \bvec{q} + (\epsilon - t_0) \bvec{p}$
 \nllabel{a:position evolve end} %......................................
 }%end Reflective
-\\
-\vspace{2mm}
-
+%\\
 $\bvec{p} \eq \bvec{p} - \epsilon  \nabla U(\bvec{q}) / 2$
 \hspace*{\fill} \# \emph{Half-step evolution of momentum}
 
@@ -348,7 +351,7 @@ $\Delta H \eq H - H_0$\\
 \Note{\footnotesize{\sc FirstDiscontinuity}$(\cdot)$ 
 returns $\bvec{x}$, the position of the first intersection of a boundary plain with line segment 
 $[\bvec{q}, \bvec{q} + (\epsilon - t_0) \bvec{p}]$;
-$t_x$, the time it is visited; $\Delta U$ = $U(\bvec{x}^+)$ - $U(\bvec{x}^-)$ and $\phi$, the visited partition boundary.  
+$t_x$, the time it is visited; $\Delta U$, the change in energy at the discontinuity, and $\phi$, the visited partition boundary.  
 If no such point exists, $\emptyset$ is returned.
 }
 \end{algorithm}
