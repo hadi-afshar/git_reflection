@@ -83,8 +83,7 @@ Canberra, ACT 0200\\
 \texttt{hadi.afshar@anu.edu.au} \\
 \And
 Justin Domke\\
-Australia's Information and Communications \\Technology Research Centre of Excellence\\
-(NICTA), Canberra, ACT \\
+NICTA and Australian National University\\
 \texttt{Justin.Domke@nicta.com.au}
 }
 
@@ -274,9 +273,8 @@ $H_0 \eq \Vert\bvec{p}\Vert^2 / 2 + U(\bvec{q})$\\
 
 \For {$l = 1$ \emph{\bf to} $L$}{
 
-\# \emph{Half-step evolution of momentum}:\\
 $\bvec{p} \eq \bvec{p} - \epsilon  \nabla U(\bvec{q}) / 2$ 
-%\hspace*{\fill} \# first \emph{momentum step}.
+\hspace*{\fill} \# \emph{Half-step evolution of momentum}
 \nllabel{a:first momentum} %......................................
 \\
 
@@ -330,12 +328,11 @@ $\bvec{q} \eq \bvec{q} + (\epsilon - t_0) \bvec{p}$
 \\
 \vspace{2mm}
 
-\# \emph{Half-step evolution of momentum}:\\
-
-$\bvec{p} \eq \bvec{p} - \epsilon  \nabla U(\bvec{q}) / 2$\\
+$\bvec{p} \eq \bvec{p} - \epsilon  \nabla U(\bvec{q}) / 2$
+\hspace*{\fill} \# \emph{Half-step evolution of momentum}
 
 }%for
-$\bvec{p} \eq - \bvec{p}$\hspace*{\fill} \# \emph{not required in practice; just for the proof of reversibility}\\
+$\bvec{p} \eq - \bvec{p}$\hspace*{\fill} \# \emph{not required in practice; for proof of reversibility}\\
 $H \eq \Vert\bvec{p}\Vert^2/2 + U(\bvec{q})$; \quad  
 $\Delta H \eq H - H_0$\\
 
@@ -850,14 +847,13 @@ As the results show, even in low dimensions, the extra cost of the position step
 
 
 
-
-
 \section{Conclusion}
 
 We have presented a modification of the leapfrog dynamics for Hamiltonian Monte Carlo for piecewise smooth energy functions with affine boundaries (i.e. each region is a polytope), inspired by physical systems.  Though traditional Hamiltonian Monte Carlo can in principle be used on such functions, the fact that the Hamiltonian will often be dramatically changed by the dynamics can result in a very low acceptance ratio, particularly in high dimensions.  By better preserving the Hamiltonian, \emph{reflective Hamiltonian Monte Carlo} (RHMC) accepts more moves and thus has a higher effective sample size, leading to much more efficient probabilistic inference.  To use this method, one must be able to detect the first intersection of a position trajectory with polytope boundaries.
 
 
-
+\subsubsection*{Acknowledgements}
+NICTA is funded by the Australian Government through the Department of Communications and the Australian Research Council through the ICT Centre of Excellence Program.
 
 
 
