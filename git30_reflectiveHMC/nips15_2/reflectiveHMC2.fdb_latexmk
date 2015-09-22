@@ -1,43 +1,43 @@
 # Fdb version 3
-["bibtex reflectiveHMC2"] 1442890109 "reflectiveHMC2.aux" "reflectiveHMC2.bbl" "reflectiveHMC2" 1442890176
+["bibtex reflectiveHMC2"] 1442895427 "reflectiveHMC2.aux" "reflectiveHMC2.bbl" "reflectiveHMC2" 1442895429
   "/usr/local/texlive/2014/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "reflectiveHMC.bib" 1442800164 3567 3e480b6daa33f751fcea7aa6d075c5ee ""
-  "reflectiveHMC2.aux" 1442890176 5768 c0b413b632018b4acfa6874d55b62e5e ""
+  "reflectiveHMC2.aux" 1442895428 5768 c0b413b632018b4acfa6874d55b62e5e ""
   "reflectiveHMC2.bcf" 0 -1 0 ""
   (generated)
   "reflectiveHMC2.bbl"
   "reflectiveHMC2.blg"
-["cusdep eps pdf ../plots3/BaselineHMC_l10_eps0_5_log_scatter2D"] 1442890175 "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.eps" "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.pdf" "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D" 1442890176
-  "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.eps" 1442890141 12420 16fc68e97431bfaddb6c5b997f87e4cc ""
+["cusdep eps pdf ../plots3/BaselineHMC_l10_eps0_5_log_scatter2D"] 1442895423 "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.eps" "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.pdf" "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D" 1442895429
+  "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.eps" 1442895348 12887 5d4299ab7d2224e9151c9512aa3e9b3e ""
   (generated)
   "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.pdf"
-["cusdep eps pdf ../plots3/BaselineHMC_l25_eps0_1_log_scatter2D"] 1442890175 "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.eps" "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.pdf" "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D" 1442890176
-  "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.eps" 1442890144 15685 d89f68a8f646a6ea02a322af3fca7091 ""
+["cusdep eps pdf ../plots3/BaselineHMC_l25_eps0_1_log_scatter2D"] 1442895423 "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.eps" "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.pdf" "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D" 1442895429
+  "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.eps" 1442895351 16200 90321e23007f8466b5880994bc16f481 ""
   (generated)
   "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.pdf"
-["cusdep eps pdf ../plots3/BaselineHMC_l25_eps0_2_log_scatter2D"] 1442890175 "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.eps" "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.pdf" "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D" 1442890176
-  "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.eps" 1442890147 13808 463f68d6ad3cac41861c4361b7cec3dc ""
+["cusdep eps pdf ../plots3/BaselineHMC_l25_eps0_2_log_scatter2D"] 1442895423 "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.eps" "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.pdf" "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D" 1442895429
+  "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.eps" 1442895357 14472 3037863db32e941cf5018799ec38039a ""
   (generated)
   "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.pdf"
-["cusdep eps pdf ../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D"] 1442890175 "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.eps" "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.pdf" "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D" 1442890176
-  "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.eps" 1442890149 15720 7bfde08de301c0994ad98d74a5da097f ""
+["cusdep eps pdf ../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D"] 1442895423 "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.eps" "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.pdf" "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D" 1442895429
+  "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.eps" 1442895361 15965 e1f783c657da97f5e641543fac038f95 ""
   (generated)
   "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.pdf"
-["cusdep eps pdf ../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D"] 1442890175 "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.eps" "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.pdf" "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D" 1442890176
-  "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.eps" 1442890151 19513 511100f39a1b52a81b25adc79949eebd ""
+["cusdep eps pdf ../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D"] 1442895423 "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.eps" "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.pdf" "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D" 1442895429
+  "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.eps" 1442895366 19708 756e4c9bf88765eb93796d753324bd0d ""
   (generated)
   "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.pdf"
-["cusdep eps pdf ../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D"] 1442890175 "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.eps" "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.pdf" "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D" 1442890176
-  "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.eps" 1442890154 20482 fdd5071dc2ecffd4724aefc15029bcbe ""
+["cusdep eps pdf ../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D"] 1442895423 "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.eps" "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.pdf" "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D" 1442895429
+  "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.eps" 1442895372 20646 24f6ded2e1e3bdc1bcedde862df6abae ""
   (generated)
   "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.pdf"
-["pdflatex"] 1442890175 "reflectiveHMC2.tex" "reflectiveHMC2.pdf" "reflectiveHMC2" 1442890176
-  "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.pdf" 1442890142 6719 21e83ce2b82d49418b57160f4c8ff33d "cusdep eps pdf ../plots3/BaselineHMC_l10_eps0_5_log_scatter2D"
-  "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.pdf" 1442890145 9616 05c24460b55c7026ee3094371e22b0f3 "cusdep eps pdf ../plots3/BaselineHMC_l25_eps0_1_log_scatter2D"
-  "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.pdf" 1442890147 7820 f47967969b6ab156a2bc7b83317b31fe "cusdep eps pdf ../plots3/BaselineHMC_l25_eps0_2_log_scatter2D"
-  "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.pdf" 1442890149 9377 728d825f1bb74479c2d72b61da300291 "cusdep eps pdf ../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D"
-  "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.pdf" 1442890152 12740 ab7667476f5c1a1c8d4d42fbe9a1bbeb "cusdep eps pdf ../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D"
-  "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.pdf" 1442890154 13142 265ed1a675c1c973a37e02e3472c3298 "cusdep eps pdf ../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D"
+["pdflatex"] 1442895427 "reflectiveHMC2.tex" "reflectiveHMC2.pdf" "reflectiveHMC2" 1442895429
+  "../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.pdf" 1442895349 6769 6fc44426c2647730e43958272d9e237e "cusdep eps pdf ../plots3/BaselineHMC_l10_eps0_5_log_scatter2D"
+  "../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.pdf" 1442895351 9732 67f7dbdf1b1db690aa761f168a601286 "cusdep eps pdf ../plots3/BaselineHMC_l25_eps0_1_log_scatter2D"
+  "../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.pdf" 1442895357 7990 71eb72d5159b296f8f14af15878c4dfa "cusdep eps pdf ../plots3/BaselineHMC_l25_eps0_2_log_scatter2D"
+  "../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.pdf" 1442895361 9451 a36e01797977a4dfcbb31e304e234e4f "cusdep eps pdf ../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D"
+  "../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.pdf" 1442895366 12789 c2235f14438b09c064753d38ab19a490 "cusdep eps pdf ../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D"
+  "../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.pdf" 1442895372 13179 8713d28b37ca9f899a0d376505f9fa3f "cusdep eps pdf ../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D"
   "/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -166,9 +166,9 @@
   "plots1/expectationVtime_dim10.pdf" 1442800164 54947 fcb363ba0929a86350fb3e5f86cda9e4 ""
   "plots1/expectationVtime_dim2.pdf" 1442800164 37601 15cc5f18e8fbd7c5586af03559eadd97 ""
   "plots1/expectationVtime_dim50.pdf" 1442800164 48545 efad6caeda852a5c1e2d194a91686635 ""
-  "reflectiveHMC2.aux" 1442890176 5768 c0b413b632018b4acfa6874d55b62e5e ""
-  "reflectiveHMC2.bbl" 1442890110 2690 ddab990f9dad3e38950374fdcc48555c "bibtex reflectiveHMC2"
-  "reflectiveHMC2.out" 1442890176 624 30cebe6e6093f17440b059a4102a2c6e ""
+  "reflectiveHMC2.aux" 1442895428 5768 c0b413b632018b4acfa6874d55b62e5e ""
+  "reflectiveHMC2.bbl" 1442895427 2690 ddab990f9dad3e38950374fdcc48555c "bibtex reflectiveHMC2"
+  "reflectiveHMC2.out" 1442895428 624 30cebe6e6093f17440b059a4102a2c6e ""
   "reflectiveHMC2.tex" 1442889754 41343 04e85222232ec243f94600195bc24741 ""
   (generated)
   "reflectiveHMC2.aux"
