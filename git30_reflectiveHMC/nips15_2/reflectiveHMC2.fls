@@ -211,6 +211,9 @@ INPUT ../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.pdf
 INPUT ../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.pdf
 INPUT ../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.pdf
 INPUT ../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.pdf
+INPUT ../plots3/energy_contour.pdf
+INPUT ../plots3/energy_contour.pdf
+INPUT ../plots3/energy_contour.pdf
 INPUT ../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.pdf
 INPUT ../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.pdf
 INPUT ../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.pdf
