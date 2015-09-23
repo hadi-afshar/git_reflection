@@ -6,6 +6,7 @@
 \usepackage{afterpage}
 
 \usepackage{tikz} %for Dia
+\usepackage{wrapfig}
 
 %\documentstyle[nips14submit_09,times,art10]{article} % For LaTeX 2.09
 
@@ -217,6 +218,17 @@ $\bvec{q} \leftarrow \bvec{q} + \epsilon \bvec{p}$
 between two half \emph{momentum} steps $\bvec{p} \leftarrow \bvec{p} - \epsilon \nabla U(\bvec{q})/2.$ (3) Reverse the sign of $\bvec{p}$. If $(\bvec{q},\bvec{p})$ is the starting point of the leapfrog dynamics, and $(\bvec{q}', \bvec{p}')$ is the final point, \emph{accept} the move with probability $\min(1,\exp(H(\bvec{p},\bvec{q})-H(\bvec{p}', \bvec{q}')))$  See Algorithm~\ref{alg:rhmc}.
 
 It can be shown that this baseline HMC method has detailed balance with respect to $P(\bvec{p})$, even if $U(\bvec{q})$ is discontinuous.  However, discontinuities mean that large changes in the Hamiltonian may occur, meaning many steps can be rejected.  We propose a modification of the dynamics, namely, \emph{reflective Hamiltonian Monte Carlo} (RHMC), which is also shown in Algorithm \ref{alg:rhmc}.  
+
+% Figure refraction for Lemma 1
+\begin{wrapfigure}{R}{0.5\textwidth}
+\centering
+\input figs1/refract1
+%\includegraphics[scale=0.5,trim = 0mm 70mm 0mm 25mm, clip]{tpr/BN3.pdf}
+\vspace{-30pt}
+\caption{Transformation  $\mathcal{T}: \tuple{\bvec{q}, \bvec{p}} \rightarrow \tuple{\bvec{q}', \bvec{p}'}$ 
+described by Lemma~\ref{lemma1} (Refraction).}
+\label{Fig:sec1.BN3}
+\end{wrapfigure}
 
 The only modification is applied to the position steps: In RHMC, the first intersection of the trajectory with the boundaries of the polytope that contains $\bvec{q}$ must be detected \cite{pakman2014exact, pakman2013auxiliary}.  The position step is only taken up to this boundary, and reflection/refraction occurs, depending on the momentum and change of energy at the boundary.  This process continues until the entire amount of time $\epsilon$ has been simulated.  Note that if there is no boundary in the trajectory to time $\epsilon$, this is equivalent to baseline HMC.  Also note that several boundaries might be visited in one position step.
 
@@ -681,18 +693,6 @@ p_1 -
 = 1.
 \end{align*}
 \end{proof}    
-
-
-
-% Figure refraction for Lemma 1
-\begin{figure}%[h]  
-\centering
-\input figs1/refract1
-%\includegraphics[scale=0.5,trim = 0mm 70mm 0mm 25mm, clip]{tpr/BN3.pdf}
-\caption{Transformation  $\mathcal{T}: \tuple{\bvec{q}, \bvec{p}} \rightarrow \tuple{\bvec{q}', \bvec{p}'}$ 
-described by Lemma~\ref{lemma1} (Refraction).}
-\label{Fig:sec1.BN3}
-\end{figure}
 
 
 
