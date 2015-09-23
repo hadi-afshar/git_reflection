@@ -60,21 +60,7 @@
 In the supplementary material, we carry out more experiments on our test model.
 \begin{itemize}
 \item In Figures 1 to 16 \emph{error vs iteration} and \emph{error vs time} plots are depicted for a range of (leapfrog) parameter configurations. Namely all combinations of $L \in \{20, 50, 100, 200\}$ and $\epsilon \in \{0.05, 0.1, 0.2, 0.4\}$ are tested on 2, 10 and 50 dimensional models. 
-The worst mean absolute error (WMAE) over all dimensions is taken as the error measurement of a Markov chain. (In the paper, the model and error measure formulas should be corrected as bellow:)
-\[
-U(\bvec{q}) =
-\begin{cases}
-\case{\Vert \bvec{q} \Vert_\infty \leq 3}{\sqrt{\bvec{q}^\top A \; \bvec{q}}}\\
-\case{3 < \Vert \bvec{q} \Vert_\infty \leq 6 }{1 + \sqrt{\bvec{q}^\top A \; \bvec{q}}}\\
-\otherwise{+ \infty,}
-\end{cases}
-\] 
-\[
-\textsc{WMAE} \left( \bvec{q}^{(1)}, \ldots, \bvec{q}^{(k)} \right) = 
-\frac{1}{k}
-\max_{d=1, \ldots n} 
-\left|\sum_{s=1}^k {q_d}^{s} \right|
-\]
+The worst mean absolute error (WMAE) over all dimensions is taken as the error measurement of a Markov chain. 
 The figures show that 
 \begin{enumerate}
 \item 
