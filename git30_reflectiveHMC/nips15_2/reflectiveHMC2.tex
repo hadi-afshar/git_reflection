@@ -4,6 +4,9 @@
 \usepackage{hyperref}
 \usepackage{url}
 \usepackage{afterpage}
+
+\usepackage{tikz} %for Dia
+
 %\documentstyle[nips14submit_09,times,art10]{article} % For LaTeX 2.09
 
 % Import an algorithm formatting package
@@ -87,7 +90,8 @@ Canberra, ACT 0200\\
 \texttt{hadi.afshar@anu.edu.au} \\
 \And
 Justin Domke\\
-NICTA and Australian National University\\
+National ICT Australia (NICTA) \& \\Australian National University\\
+Canberra, ACT 0200\\
 \texttt{Justin.Domke@nicta.com.au}
 }
 
@@ -368,6 +372,7 @@ If no such point exists, $\emptyset$ is returned.
 %%%%%%%%%%%%%%%%%%%%%
 
 \section{Volume Conservation}
+
 
 \subsection{Refraction}
 
@@ -679,7 +684,15 @@ p_1 -
 
 
 
-
+% Figure refraction for Lemma 1
+\begin{figure}%[h]  
+\centering
+\input figs1/refract1
+%\includegraphics[scale=0.5,trim = 0mm 70mm 0mm 25mm, clip]{tpr/BN3.pdf}
+\caption{Transformation  $\mathcal{T}: \tuple{\bvec{q}, \bvec{p}} \rightarrow \tuple{\bvec{q}', \bvec{p}'}$ 
+described by Lemma~\ref{lemma1} (Refraction).}
+\label{Fig:sec1.BN3}
+\end{figure}
 
 
 
