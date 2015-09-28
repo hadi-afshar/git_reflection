@@ -57,6 +57,92 @@
 
 \maketitle
 
+\begin{figure*}
+\setlength{\tabcolsep}{0em}
+\vspace{-1mm}
+\begin{center}
+\begin{tabular}{cc}
+\includegraphics[trim={3.2cm 6cm 3.2cm 9cm},clip,width=0.49\textwidth]{../plots3/energy_contour.pdf}
+& \includegraphics[trim={3.2cm 6cm 3.2cm 9cm},clip,width=0.49\textwidth]{../plots3/dist_contour.pdf} 
+\vspace{-3.5mm}
+\\
+   \footnotesize(a) 
+& \footnotesize(b) 
+\\
+\multicolumn{2}{c}{}
+\end{tabular}
+\end{center}
+\vspace{-8mm}
+\caption{\footnotesize
+(a) Contours of the demonstration energy function $E(x)$ in two dimensions. (b) Contours of the target distribution $p(x)\propto \exp(-E(x))$.}
+\vspace{-10pt}
+\end{figure*}
+
+
+\begin{figure*}
+\setlength{\tabcolsep}{0em}
+\vspace{-1mm}
+\begin{center}
+\begin{tabular}{cc}
+\includegraphics[trim={3.2cm 6cm 3.2cm 9cm},clip,width=0.49\textwidth]{../plots3/BaselineHMC_l10_eps0_5_log_scatter2D.pdf} 
+&\includegraphics[trim={3.2cm 6cm 3cm 9cm},clip,width=0.49\textwidth]{../plots3/ReflectiveHMC_l10_eps0_5_log_scatter2D.pdf}  \\
+\vspace{-3.5mm}
+\\
+   \footnotesize(a) 
+& \footnotesize(b) 
+\\
+\multicolumn{2}{c}{}
+\end{tabular}
+\end{center}
+\vspace{-8mm}
+\caption{\footnotesize
+Example trajectories of baseline and reflective HMC with $L=25$ and $\epsilon=0.5$ red and blue lines show rejected and accepted proposals, respectively. (a) Baseline HMC. (b) Reflective HMC}
+\vspace{-10pt}
+\end{figure*}
+
+\begin{figure*}
+\setlength{\tabcolsep}{0em}
+\vspace{-1mm}
+\begin{center}
+\begin{tabular}{cc}
+\includegraphics[trim={3.2cm 6cm 3.2cm 9cm},clip,width=0.49\textwidth]{../plots3/BaselineHMC_l25_eps0_1_log_scatter2D.pdf} 
+&\includegraphics[trim={3.2cm 6cm 3cm 9cm},clip,width=0.49\textwidth]{../plots3/ReflectiveHMC_l25_eps0_1_log_scatter2D.pdf}  \\
+\vspace{-3.5mm}
+\\
+   \footnotesize(a) 
+& \footnotesize(b) 
+\\
+\multicolumn{2}{c}{}
+\end{tabular}
+\end{center}
+\vspace{-8mm}
+\caption{\footnotesize
+Example trajectories of baseline and reflective HMC with $L=25$ and $\epsilon=0.1$ red and blue lines show rejected and accepted proposals, respectively. (a) Baseline HMC. (b) Reflective HMC}
+\vspace{-10pt}
+\end{figure*}
+
+
+\begin{figure*}
+\setlength{\tabcolsep}{0em}
+\vspace{-1mm}
+\begin{center}
+\begin{tabular}{cc}
+\includegraphics[trim={3.2cm 6cm 3.2cm 9cm},clip,width=0.49\textwidth]{../plots3/BaselineHMC_l25_eps0_2_log_scatter2D.pdf} 
+&\includegraphics[trim={3.2cm 6cm 3cm 9cm},clip,width=0.49\textwidth]{../plots3/ReflectiveHMC_l25_eps0_2_log_scatter2D.pdf}  \\
+\vspace{-3.5mm}
+\\
+   \footnotesize(a) 
+& \footnotesize(b) 
+\\
+\multicolumn{2}{c}{}
+\end{tabular}
+\end{center}
+\vspace{-8mm}
+\caption{\footnotesize
+Example trajectories of baseline and reflective HMC with $L=25$ and $\epsilon=0.2$ red and blue lines show rejected and accepted proposals, respectively. (a) Baseline HMC. (b) Reflective HMC}
+\vspace{-10pt}
+\end{figure*}
+
 In the supplementary material, we carry out more experiments on our test model.
 \begin{itemize}
 \item In Figures 1 to 16 \emph{error vs iteration} and \emph{error vs time} plots are depicted for a range of (leapfrog) parameter configurations. Namely all combinations of $L \in \{20, 50, 100, 200\}$ and $\epsilon \in \{0.05, 0.1, 0.2, 0.4\}$ are tested on 2, 10 and 50 dimensional models. 
